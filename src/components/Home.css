@@ -1,0 +1,14 @@
+#bg{
+    height: 100;
+    width: 100vw;
+
+    color: white;
+    padding-left: 60px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+@media (max-width: 768px) {
+    #bg {
+      padding-left: 15px;
+    }
+}

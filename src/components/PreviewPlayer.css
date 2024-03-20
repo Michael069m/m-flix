@@ -1,0 +1,60 @@
+#display-movie-title{
+    width: 518px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 0;
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+#movie-bg{
+    z-index: -1;
+    height: 810px;
+    position:absolute;
+    width: 100%;
+    background: url(../../public/tokyo_ghoul_bg.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0;
+}
+#movie-bg::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 810px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgb(7, 7, 7) 90%);
+    z-index: -0.5; /* Place the gradient behind the content */
+}
+    #movie-logo{
+        width: 100%;
+        height: 207px;
+        background: url(../../public/tokyo_ghoul.png) no-repeat center center;
+        background-size: cover;
+    }
+    #movie-caption{
+
+        line-height: 25px;
+        color: white;
+    }
+    #buttons{
+        height: 69px;
+    }
+        #playb{
+            height: 43px;
+            width: 119px;
+            font-size: 18px;
+            font-weight: 600;
+            border-style: none;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            color: black;
+
+        }
+        #moreb{
+            height: 43px;
+            width: 119px;
+            font-size: 18px;
+            font-weight: 600;
+            background: rgb(147, 147, 147,0.5);
+            border-style: none;
+            color: white;
+            border-radius: 5px;
+        }

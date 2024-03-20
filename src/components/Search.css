@@ -1,0 +1,28 @@
+.moviediv2{
+    background-size:cover;
+    height: 300px;
+    width: 220px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+@media (max-width: 768px) {
+    .moviediv2{
+      margin-right: 3px;
+      height: 180px;
+      width: 120px;
+      margin-bottom: 15px;
+
+    }
+}
+#search{
+    background: #111111;
+
+}
+.slider_div2{
+    width: 100vw;
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
