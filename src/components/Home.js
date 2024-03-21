@@ -15,7 +15,7 @@ function Home(){
     return(
         <>
         
-        <div className={`!bg-black relative !z-[-10] ${menuVisible?"!overflow-hidden fixed":""}`}>
+        <div className={`!bg-black relative !z-[-10] ${menuVisible?"!overflow-hidden !fixed":"!overflow-auto"}`}>
             { mobileView && <PreviewPlayer/>}
             <div id="bg" className={`z-[100] ${menuVisible?"opacity-50 ":"opacity-100"}`}>
                 <div id="temp" className=" pt-[100px]"></div>
