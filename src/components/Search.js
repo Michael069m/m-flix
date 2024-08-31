@@ -6,7 +6,7 @@ function Search(){
         method: 'GET',
         headers: {
           accept: 'application/json',
-          Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2NDUyZGI5NzEyZDY2ZGM4ZjE3MTYxM2UwMDliNDA4NyIsInN1YiI6IjY1YzFjMDBlMDkyOWY2MDE0OGUzZTAxNyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.jMZ3lfEwm6NIM-NmbRlvf0W-EwS0z1O5wDxV_POcQcE'
+          Authorization: 'not available to you'
         }
       };
     const {search} = useParams();
